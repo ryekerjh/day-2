@@ -1,0 +1,39 @@
+.container-fluid {
+  background-color: yellow;
+}
+
+header {
+  background-color: #0000ff;
+  height: 150px;
+  margin-top: 25px;
+}
+
+main {
+  height: 300px;
+  background-color: red;
+}
+
+aside {
+  height: 300px;
+  background-color: teal;
+}
+
+@media screen and (min-width: 768px) {
+  aside {
+    background-color: #000;
+  }
+  
+  main {
+    background-color: #00ff00;
+  }
+}
+
+@media screen and (min-width: 875px) {
+  aside {
+    background-color: #e7e7e7;
+  }
+  
+  main {
+    background-color: #e90088;
+  }
+}
